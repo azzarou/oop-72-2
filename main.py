@@ -23,3 +23,4 @@ my_str = "text"
 # print(asuna.hero_lvl)
 # kirito.action()
 # asuna.action()
+x
