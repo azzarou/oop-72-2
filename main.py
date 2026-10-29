@@ -1,26 +1,38 @@
-# MageHero - mageHero
-# mage_hero
 class Hero:
-    # конструктор класа NameClass()
-    def __init__(self, name, lvl, hp):
-        # Атрибуты экземпляра+|+объекта класса
-        self.hero_name = name
-        self.hero_lvl = lvl
-        self.hero_hp = hp
+    def __init__(self, name, level, health, strength):
+        self.name = name
+        self.level = level
+        self.health = health
+        self.strength = strength
 
-    def action(self):
-        print(f"{self.hero_name} base action")
+    def greet(self):
+        print(f"Привет, я {self.name}, мой уровень {self.level}")
 
-kirito = Hero("Kir1to", 100, 1000)
-asuna = Hero("Asuna", 101, 1001)
-my_int = 123
-my_str = "text"
-# print(type(kirito))
-# print(type(my_str))
-# kirito.action()
-# print(my_str.capitalize())
-# print(kirito.hero_lvl)
-# print(asuna.hero_lvl)
-# kirito.action()
-# asuna.action()
-x
+    def attack(self):
+        print(f"{self.name} наносит удар!")
+        self.strength -= 1
+
+    def rest(self):
+        print(f"{self.name} отдыхает…")
+        self.health += 1
+
+hero1 = Hero(name="Kirito", level=50, health=500, strength=100)
+hero2 = Hero(name="Asuna", level=52, health=480, strength=95)
+
+print("Проверка героя 1")
+hero1.greet()
+print(f"До атаки, сила: {hero1.strength}")
+hero1.attack()
+print(f"После атаки, сила: {hero1.strength}")
+print(f"До отдыха, здоровье: {hero1.health}")
+hero1.rest()
+print(f"После отдыха, здоровье: {hero1.health}")
+
+print("Проверка героя 2")
+hero2.greet()
+print(f"До атаки, сила: {hero2.strength}")
+hero2.attack()
+print(f"После атаки, сила: {hero2.strength}")
+print(f"До отдыха, здоровье: {hero2.health}")
+hero2.rest()
+print(f"После отдыха, здоровье: {hero2.health}")
