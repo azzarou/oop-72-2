@@ -1,0 +1,12 @@
+Команды для регистрации ваших данны
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
+
+Команды только для одно проикта
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_repository | Добавление репозитория
+
+5) git status      | Статус репозитория
+6) git add .       | Добавление файлов в буфер обмена
+7) git commit -m "message" | сохранение всего из буфера обмена
+8) git push origin master   | Отправка изменений в репозитории
