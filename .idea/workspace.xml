@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="669b1d1e-7b67-4be6-922b-ea14f2253d1d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/store.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,6 +312,7 @@
       <workItem from="1795180506786" duration="40000" />
       <workItem from="1795180697699" duration="133000" />
       <workItem from="1795180905164" duration="3223000" />
+      <workItem from="1795186936968" duration="1074000" />
     </task>
     <servers />
   </component>
@@ -318,6 +320,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/oop_72_2$homework7.coverage" NAME="homework7 Coverage Results" MODIFIED="1795186347356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks" />
+    <SUITE FILE_PATH="coverage/oop_72_2$homework7.coverage" NAME="homework7 Coverage Results" MODIFIED="1795187232677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks" />
   </component>
 </project>
